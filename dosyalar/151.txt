@@ -1,0 +1,1 @@
+ 151. Bu programý ilk 5 tercihinde gösteren ve bu programa yerleþtirilen adaylardan "MEB" sütunda belirtilen kadarýna Milli Eðitim Bakanlýðýnca bursl statüde destek saðlanacaktýr. Bu konudaki Milli Eðitim Bakanlýðýnýn duyurusu bu kýlavuzun ileri sayfalarýnda yer almaktadýr. (Ek yerleþtirmede geçerl deðildir.  

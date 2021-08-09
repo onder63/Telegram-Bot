@@ -1,0 +1,1 @@
+ 194. Bu programý tercih edebilmek için adaylarýn ilgili yerleþtirme puanýnýn en az 260 olmasý gerekmektedir  

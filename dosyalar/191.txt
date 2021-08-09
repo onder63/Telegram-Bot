@@ -1,0 +1,1 @@
+ 191. Bu programýnýn yerleþtirme puan türünde baþarý sýrasý 100 bininci sýrada olan adayýn yerleþtirme puanýnýn altýnda yerleþtirme puanýna sahip adayla yerleþtirilmeyecektir. Bu þartý saðlamayan adaylar ilgili programý tercih edemeyeceklerdir. Bu þartý saðlayamayan adaylarýn, tercih yapmýþ olsalar bil ilgili tercihleri yerleþtirme iþlemine alýnmayacaktýr  

@@ -21,7 +21,7 @@ bot.hears(/selam/ig, async (ctx, next) => {
         { caption:  `<b>${ctx.from.first_name}</b>`,  parse_mode: 'HTML' })
     return next();
 });
-bot.hears(/51/ig, async (ctx, next) => {
+bot.hears(/merhaba/ig, async (ctx, next) => {
     await ctx.telegram.sendPhoto(ctx.chat.id,{
          source: './dosyalar/51.txt'
     }, {

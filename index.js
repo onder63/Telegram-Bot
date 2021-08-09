@@ -43,8 +43,7 @@ bot.command('1', async (ctx, next) => {
         source: 'https://tgyazilim.com/kosullar/1.txt'
     }, {
         filename: '1.txt',
-        caption: 'https://t.me/botsohbet'
-    })
+           })
     return next()
     
 })

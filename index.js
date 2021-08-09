@@ -40,7 +40,7 @@ bot.command('botsohbet', async (ctx, next) => {
 bot.command('1', async (ctx, next) => {
     
     await bot.telegram.sendDocument(ctx.chat.id, {
-        source: './dosyalar/botsohbet.mp4'
+        source: 'https://tgyazilim.com/kosullar/1.txt'
     }, {
         filename: 'https://tgyazilim.com/kosullar/1.txt',
         caption: 'https://t.me/botsohbet'

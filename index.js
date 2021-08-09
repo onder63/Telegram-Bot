@@ -22,10 +22,21 @@ bot.hears(/selam/ig, async (ctx, next) => {
         { caption:  `<b>${ctx.from.first_name}</b>`,  parse_mode: 'HTML' })
     return next();
 });
-bot.hears(/122/ig, async (ctx, next) => {
-   return ctx.reply("ffffffffffffffffffffffffffffffffffffffffffffffffff.");
+bot.hears(/1/ig, async (ctx, next) => {
+   return ctx.reply("1. Bir mesleğe yönelik program uygulayan lise veya dengi meslek okulu çıkışlı adayların bu programla ilgili tercihlerini belirlemeden önce Tablo-6'yı dikkatl incelemeleri gerekir  
+.");
 });
-
+bot.hears(/2/ig, async (ctx, next) => {
+   return ctx.reply("2. .... .");
+});   
+bot.hears(/3/ig, async (ctx, next) => {
+   return ctx.reply(" 3. 2021-2022 öğretim yılında ikinci öğretim öğrencilerinin ödeyecekleri öğrenim ücretleri tablo halinde bu kılavuzun ileri sayfalarında yer almaktadır  
+  .");                    
+});
+bot.hears(/4/ig, async (ctx, next) => {
+   return ctx.reply(" 3. 4. Bu programa yerleşen adaylardan ilgili yükseköğretim kurumu tarafından aranan şartları sağlayanlara, yükseköğretim kurumunun vakfı / anlaşmal olduğu kurum tarafından burs, yurt, ücretsiz yemek, kısmi zamanlı çalışma vb. imkânlar sağlanmaktadır. Söz konusu imkanlara ilişkin ayrıntılı bilg yükseköğretim kurumunun internet sayfasından edinilebilecektir  
+.");                    
+});
 bot.command('botsohbet', async (ctx, next) => {
     
     await bot.telegram.sendDocument(ctx.chat.id, {
@@ -37,7 +48,19 @@ bot.command('botsohbet', async (ctx, next) => {
     return next()
     
     
-})
+});
+bot.command('5', async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/5.txt'
+    }, {
+        filename: '5.txt',
+        caption: 'https://t.me/botsohbet'
+    })
+    return next()    
+    
+});
+
 bot.command('komut', async (ctx, next) => {
     await ctx.telegram.sendMessage(ctx.chat.id, `<b>${ctx.from.first_name}</b>`, { parse_mode: 'HTML' })
     return next();

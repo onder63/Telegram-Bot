@@ -24,7 +24,7 @@ bot.hears(/selam/ig, async (ctx, next) => {
 
 
 bot.hears(/51/ig, async (ctx, next) => {
-    await ctx.telegram.sendPhoto(ctx.chat.id,{ source: './dosyalar/51.txt' }, 
+    await ctx.telegram.sendDocument(ctx.chat.id,{ source: './dosyalar/51.txt' }, 
     {
         filename: '51.txt',
         caption: '51.Nolu Koşul'

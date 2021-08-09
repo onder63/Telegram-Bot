@@ -39,11 +39,12 @@ bot.command('botsohbet', async (ctx, next) => {
 
 bot.command('1', async (ctx, next) => {
     
-    await bot.telegram.sendDocument(ctx.chat.id, {
-       'https://tgyazilim.com/kosullar/1.txt'
-    }, {
-        filename: '1.txt',
-           })
+    await bot.telegram.sendDocument(ctx.chat.id, { type: 'text/plain', media: 
+			{
+				source: 'https://tgyazilim.com/kosullar/1.txt',
+				filename: '1.txt'
+			} 
+		});
     return next()
     
 })

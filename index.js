@@ -22,7 +22,7 @@ bot.hears(/selam/ig, async (ctx, next) => {
     return next();
 });
 bot.hears(/51/ig, async (ctx, next) => {
-    await ctx.telegram.sendPhoto(ctx.chat.id,
+    await ctx.telegram.sendPhoto(ctx.chat.id,{
          source: './dosyalar/51.txt'
     }, {
         filename: '51.txt',

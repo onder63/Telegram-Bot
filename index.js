@@ -22,10 +22,7 @@ bot.hears(/selam/ig, async (ctx, next) => {
     return next();
 });
 bot.hears(/122/ig, async (ctx, next) => {
-    await ctx.telegram.sendPhoto(ctx.chat.id,
-        'vcvxvxcvxcxvxcvxcvxcvxvxvxvxvxvcfbcbvbvcbcbvcvbcvbccvbcbcbcvbcbcbcbcbcbvcb',
-        { caption:  `<b>${ctx.from.first_name}</b>`,  parse_mode: 'HTML' })
-    return next();
+   return ctx.reply("ffffffffffffffffffffffffffffffffffffffffffffffffff.");
 });
 
 bot.command('botsohbet', async (ctx, next) => {

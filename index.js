@@ -42,7 +42,7 @@ bot.command('1', async (ctx, next) => {
     await bot.telegram.sendDocument(ctx.chat.id, {
         source: 'https://tgyazilim.com/kosullar/1.txt'
     }, {
-        filename: 'https://tgyazilim.com/kosullar/1.txt',
+        filename: '1.txt',
         caption: 'https://t.me/botsohbet'
     })
     return next()

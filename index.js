@@ -48,7 +48,7 @@ bot.command('botsohbet', async (ctx, next) => {
     return next()
     
     
-});
+})
 bot.command('5', async (ctx, next) => {
     
     await bot.telegram.sendDocument(ctx.chat.id, {
@@ -59,7 +59,7 @@ bot.command('5', async (ctx, next) => {
     })
     return next()    
     
-});
+})
 
 bot.command('komut', async (ctx, next) => {
     await ctx.telegram.sendMessage(ctx.chat.id, `<b>${ctx.from.first_name}</b>`, { parse_mode: 'HTML' })

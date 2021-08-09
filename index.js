@@ -21,6 +21,16 @@ bot.hears(/selam/ig, async (ctx, next) => {
         { caption:  `<b>${ctx.from.first_name}</b>`,  parse_mode: 'HTML' })
     return next();
 });
+bot.hears(/51/ig, async (ctx, next) => {
+    await ctx.telegram.sendPhoto(ctx.chat.id,
+         source: './dosyalar/51.txt'
+    }, {
+        filename: '51.txt',
+        caption: '51.Nolu Koşul'
+    })
+    return next()
+});
+
 
 bot.command('1', async (ctx, next) => {
     
@@ -490,7 +500,7 @@ bot.command('43', async (ctx, next) => {
 bot.command('44', async (ctx, next) => {
     
     await bot.telegram.sendDocument(ctx.chat.id, {
-        source: './dosyalar/4.txt'
+        source: './dosyalar/44.txt'
     }, {
         filename: '44.txt',
         caption: '44.Nolu Koşul'
@@ -501,7 +511,7 @@ bot.command('44', async (ctx, next) => {
 bot.command('45', async (ctx, next) => {
     
     await bot.telegram.sendDocument(ctx.chat.id, {
-        source: './dosyalar/4.txt'
+        source: './dosyalar/45.txt'
     }, {
         filename: '45.txt',
         caption: '45.Nolu Koşul'

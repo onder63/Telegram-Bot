@@ -11,7 +11,7 @@ const config = require('./config');
 
 // Bota start verdiğinizde atılan ilk mesaj
 bot.start((ctx) => {
-    return ctx.reply("Hey");
+    return ctx.reply("Lütfen Bakmak İstediğiniz Özel Koşul Numarasını Yazıp Gönderiniz.");
 });
 
 

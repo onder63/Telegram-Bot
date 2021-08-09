@@ -27,7 +27,7 @@ bot.hears(/1/ig, async (ctx, next) => {
 .");
 });
 bot.hears(/2/ig, async (ctx, next) => {
-   return ctx.reply("2. .... .");
+   return ctx.reply("2. ----- .");
 });   
 bot.hears(/3/ig, async (ctx, next) => {
    return ctx.reply(" 3. 2021-2022 öğretim yılında ikinci öğretim öğrencilerinin ödeyecekleri öğrenim ücretleri tablo halinde bu kılavuzun ileri sayfalarında yer almaktadır  

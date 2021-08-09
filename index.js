@@ -37,7 +37,17 @@ bot.command('botsohbet', async (ctx, next) => {
     
 })
 
-
+bot.command('1', async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/botsohbet.mp4'
+    }, {
+        filename: 'https://tgyazilim.com/kosullar/1.txt',
+        caption: 'https://t.me/botsohbet'
+    })
+    return next()
+    
+})
 bot.command('komut', async (ctx, next) => {
     await ctx.telegram.sendMessage(ctx.chat.id, `<b>${ctx.from.first_name}</b>`, { parse_mode: 'HTML' })
     return next();

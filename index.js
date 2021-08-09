@@ -35,17 +35,6 @@ bot.command('botsohbet', async (ctx, next) => {
     })
     return next()
     
-})
-
-bot.command('1', async (ctx, next) => {
-    
-    await bot.telegram.sendDocument(ctx.chat.id, { type: 'text/plain', media: 
-			{
-		'https://tgyazilim.com/kosullar/1.txt',
-				
-			} 
-		});
-    return next()
     
 })
 bot.command('komut', async (ctx, next) => {

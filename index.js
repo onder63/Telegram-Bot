@@ -9,8 +9,6 @@ const bot       = new Telegraf(BOT_API);
 
 const config = require('./config');
 
-const doc = require('fs').createReadStream('https://tgyazilim.com/kosullar/1.txt');
-bot.sendDocument(chatId, doc, {filename: '1.txt'});
 
 // Bota start verdiğinizde atılan ilk mesaj
 bot.start((ctx) => {

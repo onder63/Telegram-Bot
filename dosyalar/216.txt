@@ -1,0 +1,1 @@
+ 216. Bu programa; programýn, yerleþtirme puan türünde baþarý sýrasý 225 bininci sýrada olan adayýn yerleþtirme puanýnýn altýnda yerleþtirme puanýna sahi adaylar yerleþtirilmeyecektir. Bu þartý saðlamayan adaylar ilgili programý tercih edemeyeceklerdir. Bu þartý saðlayamayan adaylarýn, tercih yapmýþ olsala bile ilgili tercihleri yerleþtirme iþlemine alýnmayacaktýr  

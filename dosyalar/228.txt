@@ -1,0 +1,1 @@
+ 228. Bu programý tercih edebilmek için adaylarýn ilgili yerleþtirme puanýnýn en az 315 olmasý gerekmektedir   

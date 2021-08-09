@@ -1,0 +1,1 @@
+ 255. Hukuk programlarýna programýn yerleþtirme puan türünde baþarý sýrasý 50 bininci sýrada olan adayýn yerleþtirme puanýnýn altýnda yerleþtirme puanýn sahip adaylar yerleþtirilmeyecektir. Bu þartý saðlamayan adaylar ilgili programý tercih edemeyeceklerdir. Bu þartý saðlayamayan adaylarýn, tercih yapmý olsalar bile ilgili tercihleri yerleþtirme iþlemine alýnmayacaktýr  

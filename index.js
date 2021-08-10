@@ -567,8 +567,557 @@ bot.hears(/50/ig, async (ctx, next) => {
     
 })
 
+bot.hears(/51/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/51.txt'
+    }, {
+        filename: '51.txt',
+        caption: '51.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/52/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/52.txt'
+    }, {
+        filename: '52.txt',
+        caption: '52.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/53/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/53.txt'
+    }, {
+        filename: '53.txt',
+        caption: '53.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/54/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/54.txt'
+    }, {
+        filename: '54.txt',
+        caption: '54.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/55/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/55.txt'
+    }, {
+        filename: '55.txt',
+        caption: '55.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/56/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/56.txt'
+    }, {
+        filename: '56.txt',
+        caption: '56.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/57/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/57.txt'
+    }, {
+        filename: '57.txt',
+        caption: '57.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/58/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/58.txt'
+    }, {
+        filename: '58.txt',
+        caption: '58.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/59/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/59.txt'
+    }, {
+        filename: '59.txt',
+        caption: '59.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/60/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/60.txt'
+    }, {
+        filename: '60.txt',
+        caption: '60.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/61/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/61.txt'
+    }, {
+        filename: '61.txt',
+        caption: '61.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/62/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/62.txt'
+    }, {
+        filename: '62.txt',
+        caption: '62.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/63/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/63.txt'
+    }, {
+        filename: '63.txt',
+        caption: '63.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/64/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/64.txt'
+    }, {
+        filename: '64.txt',
+        caption: '64.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/65/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/65.txt'
+    }, {
+        filename: '65.txt',
+        caption: '65.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/66/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/66.txt'
+    }, {
+        filename: '66.txt',
+        caption: '66.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/67/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/67.txt'
+    }, {
+        filename: '67.txt',
+        caption: '67.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/68/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/68.txt'
+    }, {
+        filename: '68.txt',
+        caption: '68.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/69/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/69.txt'
+    }, {
+        filename: '69.txt',
+        caption: '69.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/70/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/70.txt'
+    }, {
+        filename: '70.txt',
+        caption: '70.Nolu Koşul'
+    })
+    return next()
+    
+})
 
-
+bot.hears(/71/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/71.txt'
+    }, {
+        filename: '71.txt',
+        caption: '71.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/72/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/72.txt'
+    }, {
+        filename: '72.txt',
+        caption: '72.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/73/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/73.txt'
+    }, {
+        filename: '73.txt',
+        caption: '73.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/74/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/74.txt'
+    }, {
+        filename: '74.txt',
+        caption: '74.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/75/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/75.txt'
+    }, {
+        filename: '75.txt',
+        caption: '75.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/76/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/76.txt'
+    }, {
+        filename: '76.txt',
+        caption: '76.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/77/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/77.txt'
+    }, {
+        filename: '77.txt',
+        caption: '77.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/78/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/78.txt'
+    }, {
+        filename: '78.txt',
+        caption: '78.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/79/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/79.txt'
+    }, {
+        filename: '79.txt',
+        caption: '79.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/80/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/80.txt'
+    }, {
+        filename: '80.txt',
+        caption: '80.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/81/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/81.txt'
+    }, {
+        filename: '81.txt',
+        caption: '81.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/82/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/82.txt'
+    }, {
+        filename: '82.txt',
+        caption: '82.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/83/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/83.txt'
+    }, {
+        filename: '83.txt',
+        caption: '83.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/84/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/84.txt'
+    }, {
+        filename: '84.txt',
+        caption: '84.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/85/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/85.txt'
+    }, {
+        filename: '85.txt',
+        caption: '85.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/86/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/86.txt'
+    }, {
+        filename: '86.txt',
+        caption: '86.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/87/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/87.txt'
+    }, {
+        filename: '87.txt',
+        caption: '87.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/88/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/88.txt'
+    }, {
+        filename: '88.txt',
+        caption: '88.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/89/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/89.txt'
+    }, {
+        filename: '89.txt',
+        caption: '89.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/90/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/90.txt'
+    }, {
+        filename: '90.txt',
+        caption: '90.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/91/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/91.txt'
+    }, {
+        filename: '91.txt',
+        caption: '91.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/92/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/92.txt'
+    }, {
+        filename: '92.txt',
+        caption: '92.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/93/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/93.txt'
+    }, {
+        filename: '93.txt',
+        caption: '93.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/94/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/94.txt'
+    }, {
+        filename: '94.txt',
+        caption: '94.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/95/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/95.txt'
+    }, {
+        filename: '95.txt',
+        caption: '95.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/96/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/96.txt'
+    }, {
+        filename: '96.txt',
+        caption: '96.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/97/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/97.txt'
+    }, {
+        filename: '97.txt',
+        caption: '97.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/98/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/98.txt'
+    }, {
+        filename: '98.txt',
+        caption: '98.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/99/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/99.txt'
+    }, {
+        filename: '99.txt',
+        caption: '99.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/100/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/100.txt'
+    }, {
+        filename: '100.txt',
+        caption: '100.Nolu Koşul'
+    })
+    return next()
+    
+})
 bot.hears(/101/ig, async (ctx, next) => {
     
     await bot.telegram.sendDocument(ctx.chat.id, {
@@ -1123,6 +1672,558 @@ bot.hears(/150/ig, async (ctx, next) => {
     
 })
 
+bot.hears(/151/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/151.txt'
+    }, {
+        filename: '151.txt',
+        caption: '151.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/152/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/152.txt'
+    }, {
+        filename: '152.txt',
+        caption: '52.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/153/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/153.txt'
+    }, {
+        filename: '153.txt',
+        caption: '53.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/154/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/154.txt'
+    }, {
+        filename: '154.txt',
+        caption: '154.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/155/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/155.txt'
+    }, {
+        filename: '155.txt',
+        caption: '155.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/156/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/156.txt'
+    }, {
+        filename: '156.txt',
+        caption: '56.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/157/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/157.txt'
+    }, {
+        filename: '157.txt',
+        caption: '157.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/158/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/158.txt'
+    }, {
+        filename: '158.txt',
+        caption: '158.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/159/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/159.txt'
+    }, {
+        filename: '159.txt',
+        caption: '159.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/160/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/160.txt'
+    }, {
+        filename: '160.txt',
+        caption: '160.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/161/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/161.txt'
+    }, {
+        filename: '161.txt',
+        caption: '161.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/162/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/162.txt'
+    }, {
+        filename: '162.txt',
+        caption: '162.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/163/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/163.txt'
+    }, {
+        filename: '163.txt',
+        caption: '163.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/164/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/164.txt'
+    }, {
+        filename: '164.txt',
+        caption: '164.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/165/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/165.txt'
+    }, {
+        filename: '165.txt',
+        caption: '165.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/166/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/166.txt'
+    }, {
+        filename: '166.txt',
+        caption: '166.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/167/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/167.txt'
+    }, {
+        filename: '167.txt',
+        caption: '167.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/168/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/168.txt'
+    }, {
+        filename: '168.txt',
+        caption: '168.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/169/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/169.txt'
+    }, {
+        filename: '169.txt',
+        caption: '169.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/170/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/170.txt'
+    }, {
+        filename: '170.txt',
+        caption: '170.Nolu Koşul'
+    })
+    return next()
+    
+})
+
+bot.hears(/171/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/171.txt'
+    }, {
+        filename: '171.txt',
+        caption: '171.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/172/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/172.txt'
+    }, {
+        filename: '172.txt',
+        caption: '172.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/173/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/173.txt'
+    }, {
+        filename: '173.txt',
+        caption: '173.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/174/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/174.txt'
+    }, {
+        filename: '174.txt',
+        caption: '174.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/175/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/175.txt'
+    }, {
+        filename: '175.txt',
+        caption: '175.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/176/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/176.txt'
+    }, {
+        filename: '176.txt',
+        caption: '176.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/177/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/177.txt'
+    }, {
+        filename: '177.txt',
+        caption: '177.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/178/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/178.txt'
+    }, {
+        filename: '178.txt',
+        caption: '178.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/179/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/179.txt'
+    }, {
+        filename: '179.txt',
+        caption: '179.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/180/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/180.txt'
+    }, {
+        filename: '180.txt',
+        caption: '180.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/181/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/181.txt'
+    }, {
+        filename: '181.txt',
+        caption: '181.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/182/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/182.txt'
+    }, {
+        filename: '182.txt',
+        caption: '182.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/183/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/183.txt'
+    }, {
+        filename: '183.txt',
+        caption: '183.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/184/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/184.txt'
+    }, {
+        filename: '184.txt',
+        caption: '184.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/85/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/85.txt'
+    }, {
+        filename: '85.txt',
+        caption: '85.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/186/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/186.txt'
+    }, {
+        filename: '186.txt',
+        caption: '186.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/187/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/187.txt'
+    }, {
+        filename: '187.txt',
+        caption: '187.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/188/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/188.txt'
+    }, {
+        filename: '188.txt',
+        caption: '188.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/189/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/189.txt'
+    }, {
+        filename: '189.txt',
+        caption: '189.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/190/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/190.txt'
+    }, {
+        filename: '190.txt',
+        caption: '190.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/191/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/191.txt'
+    }, {
+        filename: '191.txt',
+        caption: '191.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/192/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/192.txt'
+    }, {
+        filename: '192.txt',
+        caption: '192.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/193/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/193.txt'
+    }, {
+        filename: '193.txt',
+        caption: '193.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/194/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/194.txt'
+    }, {
+        filename: '194.txt',
+        caption: '194.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/195/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/195.txt'
+    }, {
+        filename: '195.txt',
+        caption: '195.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/196/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/196.txt'
+    }, {
+        filename: '196.txt',
+        caption: '196.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/197/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/197.txt'
+    }, {
+        filename: '197.txt',
+        caption: '197.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/198/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/198.txt'
+    }, {
+        filename: '198.txt',
+        caption: '198.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/199/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/199.txt'
+    }, {
+        filename: '199.txt',
+        caption: '199.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/200/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/200.txt'
+    }, {
+        filename: '200.txt',
+        caption: '200.Nolu Koşul'
+    })
+    return next()
+    
+})
+
 bot.hears(/201/ig, async (ctx, next) => {
     
     await bot.telegram.sendDocument(ctx.chat.id, {
@@ -1672,6 +2773,557 @@ bot.hears(/250/ig, async (ctx, next) => {
     }, {
         filename: '250.txt',
         caption: '250.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/251/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/251.txt'
+    }, {
+        filename: '251.txt',
+        caption: '251.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/252/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/252.txt'
+    }, {
+        filename: '252.txt',
+        caption: '252.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/253/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/253.txt'
+    }, {
+        filename: '253.txt',
+        caption: '253.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/254/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/254.txt'
+    }, {
+        filename: '254.txt',
+        caption: '254.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/255/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/255.txt'
+    }, {
+        filename: '255.txt',
+        caption: '255.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/256/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/256.txt'
+    }, {
+        filename: '256.txt',
+        caption: '256.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/257/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/257.txt'
+    }, {
+        filename: '257.txt',
+        caption: '257.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/258/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/258.txt'
+    }, {
+        filename: '258.txt',
+        caption: '258.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/259/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/259.txt'
+    }, {
+        filename: '259.txt',
+        caption: '259.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/260/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/260.txt'
+    }, {
+        filename: '260.txt',
+        caption: '260.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/261/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/261.txt'
+    }, {
+        filename: '261.txt',
+        caption: '61.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/262/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/262.txt'
+    }, {
+        filename: '262.txt',
+        caption: '262.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/263/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/263.txt'
+    }, {
+        filename: '263.txt',
+        caption: '263.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/264/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/264.txt'
+    }, {
+        filename: '264.txt',
+        caption: '264.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/265/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/265.txt'
+    }, {
+        filename: '265.txt',
+        caption: '265.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/266/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/266.txt'
+    }, {
+        filename: '266.txt',
+        caption: '266.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/267/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/267.txt'
+    }, {
+        filename: '267.txt',
+        caption: '267.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/268/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/268.txt'
+    }, {
+        filename: '268.txt',
+        caption: '268.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/269/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/269.txt'
+    }, {
+        filename: '269.txt',
+        caption: '269.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/270/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/270.txt'
+    }, {
+        filename: '270.txt',
+        caption: '270.Nolu Koşul'
+    })
+    return next()
+    
+})
+
+bot.hears(/271/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/271.txt'
+    }, {
+        filename: '271.txt',
+        caption: '271.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/272/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/272.txt'
+    }, {
+        filename: '272.txt',
+        caption: '272.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/273/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/273.txt'
+    }, {
+        filename: '273.txt',
+        caption: '273.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/274/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/274.txt'
+    }, {
+        filename: '274.txt',
+        caption: '274.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/275/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/275.txt'
+    }, {
+        filename: '275.txt',
+        caption: '275.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/276/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/276.txt'
+    }, {
+        filename: '276.txt',
+        caption: '276.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/277/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/277.txt'
+    }, {
+        filename: '277.txt',
+        caption: '277.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/278/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/278.txt'
+    }, {
+        filename: '278.txt',
+        caption: '278.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/279/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/279.txt'
+    }, {
+        filename: '279.txt',
+        caption: '279.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/280/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/280.txt'
+    }, {
+        filename: '280.txt',
+        caption: '280.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/281/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/281.txt'
+    }, {
+        filename: '281.txt',
+        caption: '281.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/282/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/282.txt'
+    }, {
+        filename: '282.txt',
+        caption: '282.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/283/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/283.txt'
+    }, {
+        filename: '283.txt',
+        caption: '283.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/284/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/284.txt'
+    }, {
+        filename: '284.txt',
+        caption: '284.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/285/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/285.txt'
+    }, {
+        filename: '285.txt',
+        caption: '285.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/286/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/286.txt'
+    }, {
+        filename: '286.txt',
+        caption: '286.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/287/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/287.txt'
+    }, {
+        filename: '287.txt',
+        caption: '287.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/288/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/288.txt'
+    }, {
+        filename: '288.txt',
+        caption: '288.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/289/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/289.txt'
+    }, {
+        filename: '289.txt',
+        caption: '289.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/290/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/290.txt'
+    }, {
+        filename: '290.txt',
+        caption: '290.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/291/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/291.txt'
+    }, {
+        filename: '291.txt',
+        caption: '291.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/292/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/292.txt'
+    }, {
+        filename: '292.txt',
+        caption: '292.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/293/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/293.txt'
+    }, {
+        filename: '293.txt',
+        caption: '293.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/294/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/294.txt'
+    }, {
+        filename: '294.txt',
+        caption: '294.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/295/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/295.txt'
+    }, {
+        filename: '295.txt',
+        caption: '295.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/296/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/296.txt'
+    }, {
+        filename: '296.txt',
+        caption: '296.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/297/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/297.txt'
+    }, {
+        filename: '297.txt',
+        caption: '297.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/298/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/298.txt'
+    }, {
+        filename: '298.txt',
+        caption: '298.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/299/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/299.txt'
+    }, {
+        filename: '299.txt',
+        caption: '299.Nolu Koşul'
+    })
+    return next()
+    
+})
+bot.hears(/300/ig, async (ctx, next) => {
+    
+    await bot.telegram.sendDocument(ctx.chat.id, {
+        source: './dosyalar/300.txt'
+    }, {
+        filename: '300.txt',
+        caption: '300.Nolu Koşul'
     })
     return next()
     

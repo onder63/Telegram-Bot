@@ -24,7 +24,7 @@ bot.hears(/selam/ig, async (ctx, next) => {
 
 
 
-bot.hears(/1/ig, async (ctx, next) => {
+bot.hears(/'1'/ig, async (ctx, next) => {
     
     await bot.telegram.sendDocument(ctx.chat.id, {
         source: './dosyalar/1.txt'
